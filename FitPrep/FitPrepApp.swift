@@ -9,12 +9,14 @@ import SwiftUI
 
 @main
 struct FitPrepApp: App {
+    @AppStorage("enableDarkMode") var enableDarkMode = false
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeTabsView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .preferredColorScheme(enableDarkMode ? .dark : .light)
         }
     }
 }

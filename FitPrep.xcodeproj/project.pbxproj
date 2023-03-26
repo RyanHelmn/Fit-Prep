@@ -13,6 +13,19 @@
 		433010C029A174B500D326D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433010BF29A174B500D326D9 /* Preview Assets.xcassets */; };
 		433010C229A174B500D326D9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010C129A174B500D326D9 /* Persistence.swift */; };
 		433010C529A174B500D326D9 /* FitPrep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 433010C329A174B500D326D9 /* FitPrep.xcdatamodeld */; };
+		433010CE29A17AF700D326D9 /* HomeTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010CD29A17AF700D326D9 /* HomeTabsView.swift */; };
+		433010D029A17D0900D326D9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010CF29A17D0900D326D9 /* SettingsView.swift */; };
+		433010D229A17D1000D326D9 /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010D129A17D1000D326D9 /* MealsView.swift */; };
+		433010D429A17D1700D326D9 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010D329A17D1700D326D9 /* WorkoutsView.swift */; };
+		433010D929A23BDE00D326D9 /* MealCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010D829A23BDE00D326D9 /* MealCategoryView.swift */; };
+		433010DB29A23BE400D326D9 /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433010DA29A23BE400D326D9 /* MealView.swift */; };
+		43AAFE4D29B098C500CA0884 /* WorkoutsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAFE4C29B098C500CA0884 /* WorkoutsViewModel.swift */; };
+		43AAFE4F29B098D600CA0884 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAFE4E29B098D600CA0884 /* SettingsViewModel.swift */; };
+		43FCE76C29CB98A6008B35B4 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCE76B29CB98A6008B35B4 /* Workout.swift */; };
+		43FCE76E29CB98DB008B35B4 /* WorkoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCE76D29CB98DB008B35B4 /* WorkoutType.swift */; };
+		43FCE77029CB98F5008B35B4 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCE76F29CB98F5008B35B4 /* Set.swift */; };
+		43FCE77229CB990A008B35B4 /* CompletedWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCE77129CB990A008B35B4 /* CompletedWorkout.swift */; };
+		43FE455829AD566B00F02AAC /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FE455729AD566B00F02AAC /* SettingsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		433010C129A174B500D326D9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		433010C429A174B500D326D9 /* FitPrep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitPrep.xcdatamodel; sourceTree = "<group>"; };
 		433010C629A174B500D326D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433010CD29A17AF700D326D9 /* HomeTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabsView.swift; sourceTree = "<group>"; };
+		433010CF29A17D0900D326D9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		433010D129A17D1000D326D9 /* MealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsView.swift; sourceTree = "<group>"; };
+		433010D329A17D1700D326D9 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		433010D829A23BDE00D326D9 /* MealCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCategoryView.swift; sourceTree = "<group>"; };
+		433010DA29A23BE400D326D9 /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
+		43AAFE4C29B098C500CA0884 /* WorkoutsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewModel.swift; sourceTree = "<group>"; };
+		43AAFE4E29B098D600CA0884 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		43FCE76B29CB98A6008B35B4 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		43FCE76D29CB98DB008B35B4 /* WorkoutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutType.swift; sourceTree = "<group>"; };
+		43FCE76F29CB98F5008B35B4 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		43FCE77129CB990A008B35B4 /* CompletedWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedWorkout.swift; sourceTree = "<group>"; };
+		43FE455729AD566B00F02AAC /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,10 @@
 		433010B729A174B400D326D9 /* FitPrep */ = {
 			isa = PBXGroup;
 			children = (
+				43AAFE4B29B098BC00CA0884 /* ViewModels */,
+				43FE455629AD566400F02AAC /* Models */,
+				43C1E64A29A8093B0082A7D6 /* Observables */,
+				433010CC29A174CA00D326D9 /* Views */,
 				433010B829A174B400D326D9 /* FitPrepApp.swift */,
 				433010BA29A174B400D326D9 /* ContentView.swift */,
 				433010BC29A174B500D326D9 /* Assets.xcassets */,
@@ -75,6 +105,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		433010CC29A174CA00D326D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				433010CD29A17AF700D326D9 /* HomeTabsView.swift */,
+				433010CF29A17D0900D326D9 /* SettingsView.swift */,
+				433010D129A17D1000D326D9 /* MealsView.swift */,
+				433010D329A17D1700D326D9 /* WorkoutsView.swift */,
+				433010D829A23BDE00D326D9 /* MealCategoryView.swift */,
+				433010DA29A23BE400D326D9 /* MealView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43AAFE4B29B098BC00CA0884 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				43AAFE4C29B098C500CA0884 /* WorkoutsViewModel.swift */,
+				43AAFE4E29B098D600CA0884 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		43C1E64A29A8093B0082A7D6 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		43FE455629AD566400F02AAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43FE455729AD566B00F02AAC /* SettingsModel.swift */,
+				43FCE76B29CB98A6008B35B4 /* Workout.swift */,
+				43FCE76D29CB98DB008B35B4 /* WorkoutType.swift */,
+				43FCE76F29CB98F5008B35B4 /* Set.swift */,
+				43FCE77129CB990A008B35B4 /* CompletedWorkout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,6 +162,8 @@
 			dependencies = (
 			);
 			name = FitPrep;
+			packageProductDependencies = (
+			);
 			productName = FitPrep;
 			productReference = 433010B529A174B400D326D9 /* FitPrep.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +192,8 @@
 				Base,
 			);
 			mainGroup = 433010AC29A174B400D326D9;
+			packageReferences = (
+			);
 			productRefGroup = 433010B629A174B400D326D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,10 +220,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FCE77029CB98F5008B35B4 /* Set.swift in Sources */,
 				433010C229A174B500D326D9 /* Persistence.swift in Sources */,
+				433010CE29A17AF700D326D9 /* HomeTabsView.swift in Sources */,
+				43FE455829AD566B00F02AAC /* SettingsModel.swift in Sources */,
 				433010BB29A174B400D326D9 /* ContentView.swift in Sources */,
+				433010D029A17D0900D326D9 /* SettingsView.swift in Sources */,
+				433010D229A17D1000D326D9 /* MealsView.swift in Sources */,
 				433010C529A174B500D326D9 /* FitPrep.xcdatamodeld in Sources */,
+				433010D429A17D1700D326D9 /* WorkoutsView.swift in Sources */,
+				43AAFE4F29B098D600CA0884 /* SettingsViewModel.swift in Sources */,
+				43FCE77229CB990A008B35B4 /* CompletedWorkout.swift in Sources */,
+				43FCE76C29CB98A6008B35B4 /* Workout.swift in Sources */,
+				43AAFE4D29B098C500CA0884 /* WorkoutsViewModel.swift in Sources */,
 				433010B929A174B400D326D9 /* FitPrepApp.swift in Sources */,
+				433010D929A23BDE00D326D9 /* MealCategoryView.swift in Sources */,
+				43FCE76E29CB98DB008B35B4 /* WorkoutType.swift in Sources */,
+				433010DB29A23BE400D326D9 /* MealView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +368,13 @@
 				DEVELOPMENT_TEAM = MHE4Z7MF59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fit Prep";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,11 +399,13 @@
 				DEVELOPMENT_TEAM = MHE4Z7MF59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fit Prep";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
